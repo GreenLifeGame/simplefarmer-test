@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>SIMPLE FARMER — dev preview</title>
+    <!--
+      Deliberately NO Tailwind CDN here (unlike index.html, which GREEN LIFE
+      still relies on). Simple Farmer is styled entirely with inline style
+      objects, so it has no external stylesheet dependency at all — it renders
+      identically whether or not any CDN is reachable.
+    -->
+    <style>
+      html, body, #root { height: 100%; margin: 0; background: #0d1108; }
+      * { -webkit-tap-highlight-color: transparent; }
+      body { overscroll-behavior-y: none; }
+      ::-webkit-scrollbar { width: 8px; height: 8px; }
+      ::-webkit-scrollbar-thumb { background: #25301c; border-radius: 999px; }
+    </style>
+    <script type="module" crossorigin src="/assets/index-DVW7Yw3b.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
